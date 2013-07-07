@@ -58,3 +58,7 @@ git clone https://github.com/vakaras/bitstarter.git
 cd bitstarter
 heroku create
 git push heroku master
+
+# Set up git.
+git config --global user.name "Vytautas Astrauskas"
+git config --global user.email vastrauskas@gmail.com
