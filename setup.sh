@@ -37,7 +37,7 @@ fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
-git clone https://github.com/vakaras/ec2-dotfiles.git
+git clone https://github.com/vakaras/ec2-dotfiles.git dotfiles
 ln -sb dotfiles/.tmux.conf .
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
